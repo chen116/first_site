@@ -1,47 +1,44 @@
-################################ pricing ################################
-pricing:
-  enable : true
-  pricing_table:
-    # pricing table loop
-    - name : "Basic"
-      price: "$99"
-      content : "Perfect for single freelancers who work by themselves"
-      link : "#"
-      services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
-        
-    # pricing table loop
-    - name : "Premium"
-      price: "$199"
-      content : "Suitable for small businesses with up to 5 employees"
-      link : "#"
-      services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
-        
-    # pricing table loop
-    - name : "Advance"
-      price: "$299"
-      content : "Suitable for large businesses with unlimited employees"
-      link : "#"
-      services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
-        
-############################# call to action #################################
-cta:
-  enable : true
-  # call to action content comes from "data/*/homepage.yml"
+enable  : true
+topTitle: EASY PRICING
+title   : FRANCAIS Pricing.
+subtitle : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+
+item  :
+  - name        : FRANCAIS BASIC
+    price       : $99
+    description : Perfect for single freelancers who work by themselves
+    featurelist :
+      - item: 1GB Disk Space
+      - item: 10 Email Account
+      - item: Script Installer
+      - item: 1 GB Storage
+      - item: 10 GB Bandwidth
+      - item: 24/7 Tech Support
+    btnText     : Sign Up
+    btnURL      : https://themefisher.com/
+
+  - name        : ADVANCE
+    price       : $199
+    description : Suitable for small businesses with up to 5 employees
+    featurelist :
+      - item: 1GB Disk Space
+      - item: 10 Email Account
+      - item: Script Installer
+      - item: 1 GB Storage
+      - item: 10 GB Bandwidth
+      - item: 24/7 Tech Support
+    btnText     : Sign Up
+    btnURL      : https://themefisher.com/
+
+  - name        : PROFESSIONAL
+    price       : $299
+    description : Great for large businesses with more than 5 employees
+    featurelist :
+      - item: 1GB Disk Space
+      - item: 10 Email Account
+      - item: Script Installer
+      - item: 1 GB Storage
+      - item: 10 GB Bandwidth
+      - item: 24/7 Tech Support
+    btnText     : Sign Up
+    btnURL      : https://themefisher.com/
